@@ -1,0 +1,32 @@
+.no-match {
+    text-align: center;
+    padding: 50px 100px;
+    max-width: 750px;
+    margin: 0 auto;
+
+    @media (max-width: 768px) {
+        h1{
+            font-size: 32px;
+
+            span{
+                font-size: 80px;
+            }
+        }
+
+        p{
+            font-size: 18px !important;
+        }
+    }
+
+    @media (max-width: 600px) {
+        padding: 0 0 50px 0;
+    }
+
+    span {
+        font-size: 150px;
+    }
+
+    p {
+        font-size: 22px;
+    }
+}
